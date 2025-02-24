@@ -24,7 +24,7 @@ wget -O nnUNet/nnunet/network_architecture/Med3D/Param/sam_med3d_turbo.pth "http
 ![](results/Ablation_studies_StructSeg2019-LT.png)
 - Comparison of lung tumor segmentation results using various models: the baseline 3D nnU-Net, 3D nnU-Net with multi-perspective graph convolutional network (MPGCN), 3D nnU-Net with MPGCN and hypergraph transformer (HTrans), 3D nnU-Net with MPGCN and channel-position transformer (CP-Trans), 3D nnU-Net with HTrans and CP-Trans, and our final model combining MPGCN, HTrans, CP-Trans, and PMT. Additionally, results from the final model with MPGCN, HTrans, CP-Trans, or PMT removed individually are included. Lung tumors are marked in red.
 
-![](results/Investigation_of_different_segmentation_backbones_StructSeg2019-LT.png)
+![](results/Investigation_of_different_segmentation_backbones_StructSeg2019-LT.png.png)
 - Segmentation cases of MPGCN-DHT models (ours) embedded into 3D U-Net, 3D ResNet, and 3D nnU-Net. Red indicates the segmented lung tumor region..
 
 ![](results/Comparison_with_other_state-of-the-art_methods_SDCH.png)
@@ -37,10 +37,10 @@ wget -O nnUNet/nnunet/network_architecture/Med3D/Param/sam_med3d_turbo.pth "http
 If you find this repository useful, please consider citing our paper:
 ```
 @inproceedings{
-xuan2022prcs,
-title={Convolutional bi-directional learning and spatial enhanced attentions for lung tumor segmentation},
-author={Ping Xuan and Bin Jiang and Hui Cui and Qiangguo Jin and Peng Cheng and Toshiya Nakaguchi and Tiangang Zhang and Changyang Li and Zhiyu Ning and Menghan Guo and Linlin Wang},
-booktitle={Computer Methods and Programs in Biomedicine(under review)},
-year={2022}
+xuan2025MPGCN-DHT,
+title={MPGCN-DHT: A multi-perspective GCN and dynamic hypergraph-transformer feature learning model for CT segmentation},
+author={Ping Xuan and Shengqiu Fang and Hui Cui and Qiangguo Jin and Zelong Xu and Tiangang Zhang},
+booktitle={},
+year={2025}
 }
 ```
