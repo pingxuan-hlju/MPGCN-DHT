@@ -18,16 +18,16 @@ pip install -e .
 wget -O nnUNet/nnunet/network_architecture/Med3D/Param/sam_med3d_turbo.pth "https://huggingface.co/blueyo0/SAM-Med3D/resolve/main/sam_med3d_turbo.pth"
 ```
 ## Example results  
-![](results/MPGCN-DHT.png)
+![](results/MPGCN-DHT.pdf)
 - Framework of the proposed MPGCN-DHT model.
 
-![](results/Ablation_studies_StructSeg2019-LT.png)
+![](results/Ablation_studies_StructSeg2019-LT.pdf)
 - Comparison of lung tumor segmentation results using various models: the baseline 3D nnU-Net, 3D nnU-Net with multi-perspective graph convolutional network (MPGCN), 3D nnU-Net with MPGCN and hypergraph transformer (HTrans), 3D nnU-Net with MPGCN and channel-position transformer (CP-Trans), 3D nnU-Net with HTrans and CP-Trans, and our final model combining MPGCN, HTrans, CP-Trans, and PMT. Additionally, results from the final model with MPGCN, HTrans, CP-Trans, or PMT removed individually are included. Lung tumors are marked in red.
 
-![](results/Investigation_of_different_segmentation_backbones_StructSeg2019-LT.png)
+![](results/Investigation_of_different_segmentation_backbones_StructSeg2019-LT.pdf)
 - Segmentation cases of MPGCN-DHT models (ours) embedded into 3D U-Net, 3D ResNet, and 3D nnU-Net. Red indicates the segmented lung tumor region..
 
-![](results/Comparison_with_other_state-of-the-art_methods_SDCH.png)
+![](results/Comparison_with_other_state-of-the-art_methods_SDCH.pdf)
 - Six cases with manual delineation results (GT) and the segmentation results by our model and other comparing models on the SDCH dataset. The lung tumor segmented by each model are shown in red color.
 
 ## Dataset
